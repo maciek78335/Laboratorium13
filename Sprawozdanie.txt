@@ -1,0 +1,11 @@
+Zadaniem tego programu jest klasyfikacja recenzji filmów 
+jako pozytywnych i negatywnych. Jest to przykład binarnej klasyfikacji.
+W programie został użyty zbiór danych IMDB zawierający 50000 recenzji filmów z
+internetowej bazy danych filmów. 
+Podstawowe kroki w programie:
+1. Pobranie zestawu danych z IMDB.
+2. Przeglądanie danych.
+3. Budowa modelu dzięki wstępnie wytrenowanego modelu osadzania tekstu
+z TensorFlow Hub o nazwie google / nmlm-en-dim50 / 2.
+4. Funkcja strat i optymalizator.
+5. Wytrenowanie i ocena modelu.
